@@ -1,1 +1,44 @@
+* {
+	margin: 0px;
+}
 
+nav {
+	top: 0;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background-color: antiquewhite;
+	position: sticky;
+	position: -webkit-sticky;
+}
+
+#programming-image-container {
+	position: relative;
+  text-align: center;
+  color: white;
+}
+
+#welcome-page-title {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: medium;
+}
+
+.nav-button {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	font-size: larger;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.programming-image {
+	width: 100%;
+	height: auto;
+}
